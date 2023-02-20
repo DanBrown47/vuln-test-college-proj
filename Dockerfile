@@ -1,4 +1,4 @@
-FROM node:12.21.0
+FROM node:19.6.0-bullseye-slim
 WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
